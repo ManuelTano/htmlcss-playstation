@@ -1,0 +1,27 @@
+
+img {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 10;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+#jumbotron {
+    background-image: url(/img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+.sonylogo img {
+    width: 100px;
+}
+
+.col-8 img {
+    width: 50px;
+}
