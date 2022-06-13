@@ -5,17 +5,18 @@ img {
 
 header {
     position: fixed;
-    top: 10;
+    top: 0;
     left: 0;
     right: 0;
     height: 50px;
+    z-index: 1;
 }
 
 #jumbotron {
     background-image: url(/img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    height: 550px;
+    height: 300px;
 }
 
 .sonylogo img {
@@ -24,4 +25,12 @@ header {
 
 .col-8 img {
     width: 50px;
+}
+
+.orange {
+    background-color: #CE3D0E;
+}
+
+.grey {
+    color: grey;
 }
