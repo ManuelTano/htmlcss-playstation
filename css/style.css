@@ -16,7 +16,9 @@ header {
     background-image: url(/img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    padding-top: 400px;
+    padding-bottom: 100px;
+    
 }
 
 .sonylogo img {
@@ -33,4 +35,19 @@ header {
 
 .grey {
     color: grey;
+}
+
+#central-jumbotron {
+    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#new-games {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.col-12 p {
+    font-size: 18px;
 }
