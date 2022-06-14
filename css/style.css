@@ -51,3 +51,28 @@ header {
 .col-12 p {
     font-size: 18px;
 }
+
+#psplus {
+    background-color: #BEBCBB;
+}
+
+.whitegrey {
+    background-color: #D9DADC;
+}
+
+#psnow {
+    background-color: #161C3B;
+}
+
+#blue {
+    background-color: #00439C;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sielogo {
+    width: 200px;
+}
