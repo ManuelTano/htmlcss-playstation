@@ -10,7 +10,6 @@ header {
     right: 0;
     height: 50px;
     z-index: 1;
-    box-shadow: 0px 2px 5px black;
 }
 
 #jumbotron {
@@ -85,3 +84,45 @@ a {
 .decoration {
     text-decoration: underline;
 }
+
+.bb {
+    border-bottom: 2px solid #2D64E6;
+}
+
+.op-50 {
+    filter: opacity(.5);
+}
+
+.blue {
+    box-shadow: 0 0 0 3px #2D64E6;
+    border-radius: 15px;
+}
+
+
+/* HOVER */
+
+.col-4:hover {
+    border-bottom: 2px solid #2D64E6;
+}
+
+.card:hover {
+    transform: translateY(-25%);
+    transition-duration: 1s;
+}
+
+.overlay:hover {
+    filter:opacity(1);
+}
+
+.btn-warning:hover {
+    box-shadow: 0 0 0 5px transparent, inset 0 0 0 2px black;
+    }
+
+.btn-dark:hover {
+    box-shadow: 0 0 0 5px transparent, inset 0 0 0 2px #fff;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 0 5px transparent, inset 0 0 0 2px #fff;
+}
+
